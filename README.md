@@ -19,6 +19,6 @@
 
 页面的颜色、间距和排版集中在 `styles.css` 顶部的 CSS 变量中。移动端导航和页脚年份由 `script.js` 处理。
 
-## 发布
+## 发布到 GitHub Pages
 
-可部署到 GitHub Pages 或任意静态网站托管服务。将发布来源指向仓库根目录即可，无需配置构建命令。
+仓库包含 `.github/workflows/pages.yml` 部署工作流。将仓库的 Pages 发布来源设置为 **GitHub Actions** 后，每次推送到 `main` 都会自动部署；也可在 Actions 页面手动运行工作流。网站无需构建步骤。
